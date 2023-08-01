@@ -1,0 +1,84 @@
+.hero {
+  background-image: url("../../../../public/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+.hero .container {
+  padding-top: 13%;
+  width: 80%;
+}
+
+.hero h1 {
+  color: #191929;
+  font-size: 2.5rem;
+}
+.hero p {
+  color: #191929;
+  opacity: 0.8;
+}
+.filter{
+  background-color: white;
+  box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+  border-radius: 10px;
+  margin-top: 50px;
+  padding: 0 20px;
+  width: 75%;
+  height: 4.5rem;
+  margin-left: 13%;  
+}
+form input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #191929;
+  border-radius: 5px;
+}
+input::placeholder {
+  font-size: 1rem;
+  color: grey;
+}
+form .box {
+  padding: 0 15px;
+  border-right: 1px solid #191929;
+}
+.search-icon{
+  height: 1.2rem;
+  margin-top: -1.5px;
+  margin-right: 3px;
+  width: 1.2rem;
+}
+.search{
+  font-size: 1rem;
+}
+.search-content{
+  margin-top: -0.45rem;
+  width: 6rem;
+  text-align: center;
+}
+.search-btn{
+  text-align: center;
+  width: 20%;
+}
+form .box:nth-child(1) {
+  border-left: none;
+}
+form h4 {
+  font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+  .hero .container {
+    padding-top: 30%;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  form .box {
+    border-left: none;
+  }
+  form input {
+    width: 100%;
+  }
+}

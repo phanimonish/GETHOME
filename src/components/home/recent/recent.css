@@ -1,0 +1,35 @@
+.recent .text {
+  padding: 30px;
+}
+.recent .category span {
+  padding: 4px 15px;
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 1rem;
+  display: inline-block;
+}
+.recent .category i {
+  font-size: 20px;
+  color: grey;
+}
+.recent p {
+  color: #72809d;
+}
+.recent .button {
+  border-top: 1px solid #e4e8f3;
+  padding: 10px 30px;
+}
+.txt{
+  margin-left: 1rem;
+}
+.price{
+  position: relative;
+  top: -80%;
+}
+.img{
+  height: 12rem;
+  width: auto;
+}
+.bottom{
+  margin-top: -2rem;
+}
