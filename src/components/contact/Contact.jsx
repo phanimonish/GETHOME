@@ -17,7 +17,7 @@ const Contact = () => {
             </div>
             <input type='text' placeholder='Subject' />
             <textarea placeholder='Description' rows='8'></textarea>
-            <button className="p-3">Submit Request</button>
+            <button className="p-3">Submit</button>
           </form>
         </div>
       </section>
