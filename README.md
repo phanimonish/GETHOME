@@ -1,3 +1,2 @@
 # GETHOME
-Real-estate website
-Website: https://gethome.onrender.com/
+Real-estate Website: https://gethome.onrender.com/
